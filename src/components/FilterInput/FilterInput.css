@@ -1,0 +1,24 @@
+.filterInputContainer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #e9e8e8;
+    padding: 10px 16px;
+}
+
+.filterInputLabel {
+    margin-right: 8px;
+    color: #333;
+    font-weight: 500;
+}
+
+.filterInput {
+    border: none;
+    border-radius: 12px;
+    background-color: #f5f5f5;
+}
+.select {
+    width: 8rem;
+    height: 100%;
+}

@@ -1,0 +1,83 @@
+.actions {
+    margin-bottom: 35px;
+    width: 70%;
+}
+.data-buttons {
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.7px rgb(202, 202, 202);
+    border-top: solid 0.7px rgb(202, 202, 202);
+}
+
+.data-button {
+    all: unset;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    padding: 0;
+    font: inherit;
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+    padding: 0.5rem;
+}
+
+.data-button:hover {
+    opacity: 0.75;
+}
+
+.data-button svg {
+    margin-right: 8px;
+}
+.data-button.clear {
+    padding-left: 3rem;
+    border-left: solid 1px rgb(202, 202, 202);
+}
+.data-button.clear svg {
+    margin-left: 8px;
+}
+.action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.action-button {
+    border-radius: 50px;
+    padding: 20px;
+}
+
+@media (max-width: 1120px) {
+    .actions {
+        margin-bottom: 35px;
+        width: 50%;
+    }
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+
+        align-items: start;
+    }
+    .data-buttons {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .data-button {
+        padding: 0;
+        padding: 0.5rem;
+    }
+    .data-button.clear {
+        padding-left: 0px;
+        padding-top: 5px;
+        border-left: none;
+        padding: 0.5rem;
+    }
+}
+@media (max-width: 1120px) {
+    .actions {
+        padding: 0px 20px;
+    }
+}

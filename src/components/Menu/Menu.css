@@ -1,0 +1,146 @@
+.menu {
+    border-radius: 10px;
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-options {
+    margin-bottom: 10px;
+    background-color: var(--menu);
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+}
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.menu-logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-logo-highlight {
+    background-color: #3287fb;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.menu-button {
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #3c4666;
+    padding: 5px 8px;
+    border-radius: 50px;
+    gap: 2px;
+    font-size: 12px;
+    color: #69718f;
+}
+.menu-button svg {
+    padding-top: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: var(--menu-buttons);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 15px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: var(--menu-buttons-hover);
+}
+
+.menu-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-footer {
+    padding-top: 16px;
+    background-color: var(--menu);
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+}
+.support-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+.support-section p {
+    font-size: 13px;
+    color: #717596;
+    margin-bottom: 5px;
+}
+.support-section span {
+    font-size: 15px;
+}
+
+.legal-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.legal-links a {
+    font-size: 12px;
+    color: #717596;
+    text-decoration: none;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+}
+.legal-links a:not(:last-child) {
+    border-bottom: 1px solid #383a52;
+}
+
+.legal-links a:hover {
+    color: white;
+}
+
+.contact-button {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #277eff;
+    color: white;
+    padding: 12px 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contact-button svg {
+    padding-top: 10px;
+}

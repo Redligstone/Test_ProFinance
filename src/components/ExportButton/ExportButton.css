@@ -1,0 +1,16 @@
+.custom-button {
+    background-color: var(--black-button);
+
+    border-color: var(--black-button);
+    border-radius: 50px;
+    color: white;
+    padding: 20px;
+}
+
+.custom-button:hover {
+    background-color: var(--black-button-hover) !important;
+}
+.custom-button svg {
+    height: 40px;
+    width: 20px;
+}

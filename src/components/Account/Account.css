@@ -1,0 +1,151 @@
+.account-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(254, 254, 254);
+    background-color: fff;
+
+    border-radius: 20px;
+    padding: 10px 0px;
+    width: 80%;
+}
+.account-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-left: 30px;
+}
+.account-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.account-info-name {
+    font-size: 20px;
+    margin-left: 1rem;
+}
+.account-tarif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #309bf8;
+    font-size: 22px;
+    text-align: center;
+    gap: 1rem;
+    background-color: #e0ecfe;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+.account-buttons {
+    display: flex;
+    gap: 10px;
+    padding-right: 30px;
+}
+.account-button {
+    border-radius: 20px;
+}
+.account-button.about {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 168, 41);
+    font-size: 16px;
+    text-align: center;
+    gap: 4px;
+}
+.account-button.about:hover {
+    background-color: rgb(252, 201, 107) !important;
+}
+.about-arrow {
+    padding-top: 10px;
+    width: 12px;
+}
+@media (max-width: 1300px) {
+    .account-tarif {
+        width: 100%;
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1120px) {
+    .account-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        width: 50%;
+    }
+
+    .account-info {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding-left: 0;
+    }
+
+    .account-tarif {
+        width: 100%;
+        padding: 15px 0px;
+    }
+
+    .account-buttons {
+        flex-direction: column;
+        width: 100%;
+        padding: 15px 0px;
+    }
+
+    .account-button {
+        width: 100%;
+        padding: 25px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .account-container {
+        margin-left: 20px;
+    }
+    .account-info-name {
+        font-size: 18px;
+    }
+
+    .account-tarif {
+        font-size: 14px;
+    }
+
+    .account-button {
+        font-size: 14px;
+    }
+
+    .about-arrow {
+        padding-top: 5px;
+        width: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .account-container {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .account-info-name {
+        font-size: 16px;
+    }
+
+    .account-tarif {
+        font-size: 14px;
+    }
+
+    .account-buttons {
+        gap: 10px;
+    }
+
+    .account-button {
+        font-size: 12px;
+    }
+
+    .about-arrow {
+        width: 8px;
+        padding-top: 3px;
+    }
+}
