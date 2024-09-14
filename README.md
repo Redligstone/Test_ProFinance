@@ -80,7 +80,7 @@ npm run prettier
 
 ## Компоненты
 
--   [InventoryPage](./src/Pages/InventoryPage) - главная страница инвентаря
+-   [InventoryPage](./src/Pages/InventoryPage/InventoryPage.tsx) - главная страница инвентаря
 -   [Account](./src/components/Account/Account.tsx) - компонент отображения информации об аккаунте
 -   [ExportButton](./src/components/ExportButton/ExportButton.tsx) - кнопка для экспорта данных в форматах JSON и CSV
 -   [FilterInput](./src/components/FilterInput/FilterInput.tsx) - текстовое поле для фильтрации данных
